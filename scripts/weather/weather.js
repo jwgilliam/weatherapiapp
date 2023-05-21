@@ -6,7 +6,7 @@ const weatherComponent = (weather) => {
   return `
     <section class="weather_card">
     <div class="weather_header">
-      <div class="weather_date">${new Date(weather.dt_text).toLocaleDateString('en-US')}</div>
+      <div class="weather_date">${new Date(weather.dt_txt).toLocaleDateString('en-US')}</div>
       <img src="http://openweathermap.org/img/wn/${icon}@2x.png" alt="weather icon">
     </div>
     
